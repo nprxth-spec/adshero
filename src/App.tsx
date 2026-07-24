@@ -14,6 +14,7 @@ import ContactPage from './pages/contact';
 import PrivacyPage from './pages/privacy';
 import WorksPage from './pages/works';
 import NotFoundPage from './pages/_404';
+import MetaVerificationPage from './pages/meta-verification';
 
 // Scroll to top helper on route change
 function ScrollToTop() {
@@ -39,6 +40,7 @@ function Layout() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/works" element={<WorksPage />} />
+          <Route path="/jijaow4ja9c5s7c0z0ltufo8yigwte" element={<MetaVerificationPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
