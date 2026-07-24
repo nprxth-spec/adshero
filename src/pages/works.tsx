@@ -27,9 +27,9 @@ const stagger = {
 };
 
 export default function WorksPage() {
-    const [activeCategory, setActiveCategory] = useState('ทั้งหมด');
+    const [activeCategory, setActiveCategory] = useState('All');
 
-    const filteredItems = activeCategory === 'ทั้งหมด'
+    const filteredItems = activeCategory === 'All'
         ? works.items
         : works.items.filter(item => item.category === activeCategory);
 
@@ -37,7 +37,7 @@ export default function WorksPage() {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         '@id': `${site}/works#webpage`,
-        name: 'ผลงานของเรา — AdsHero',
+        name: 'Our Works — AdsHero',
         url: `${site}/works`,
         isPartOf: { '@id': `${site}/#website` },
         about: { '@id': `${site}/#organization` },
@@ -46,11 +46,11 @@ export default function WorksPage() {
     return (
         <>
             <Helmet>
-                <title>ผลงานของเรา — AdsHero เอเจนซี่โฆษณา & ทำเว็บไซต์</title>
-                <meta name="description" content="รวมผลงานการตลาดออนไลน์ที่ประสบความสำเร็จของ AdsHero ทั้งการยิงแอด Facebook/Google, การทำ SEO ให้ติดหน้าแรก และการพัฒนาเว็บไซต์คุณภาพสูง" />
+                <title>Our Portfolio & Success Stories — AdsHero</title>
+                <meta name="description" content="Explore digital marketing success stories and web development case studies from AdsHero. Read how we help clients grow sales." />
                 <link rel="canonical" href={`${site}/works`} />
-                <meta property="og:title" content="ผลงานความสำเร็จ — AdsHero" />
-                <meta property="og:description" content="กรณีศึกษาและผลงานการทำแคมเปญการตลาดดิจิทัลที่เพิ่มยอดขายและ ROI ให้ธุรกิจจริง" />
+                <meta property="og:title" content="Our Works — AdsHero" />
+                <meta property="og:description" content="Case studies and success stories of digital marketing campaigns that drive ROI for business." />
                 <meta property="og:url" content={`${site}/works`} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />

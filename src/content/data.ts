@@ -1,200 +1,200 @@
 export const home = {
   hero: {
-    headline: "เพิ่มยอดขาย เติบโตออนไลน์",
-    headlineAccent: "กับ ADSHERO",
+    headline: "Boost Sales & Grow Online",
+    headlineAccent: "with ADSHERO",
     subheadline: "Full-service digital marketing agency — real results, measurable growth.",
-    description: "เราช่วยธุรกิจ SME และร้านค้าออนไลน์เติบโตด้วยกลยุทธ์การตลาดดิจิทัลที่วัดผลได้จริง ตั้งแต่โฆษณาออนไลน์ไปจนถึงการสร้างเว็บไซต์ครบวงจร",
-    ctaPrimary: "เริ่มต้นวันนี้",
-    ctaSecondary: "ดูบริการของเรา"
+    description: "We help SMEs and e-commerce stores grow with measurable digital marketing strategies, from online advertising to full-scale web development.",
+    ctaPrimary: "Get Started Today",
+    ctaSecondary: "Our Services"
   },
   stats: [
-    { id: "1", value: "320%", label: "ROI เฉลี่ยของลูกค้า" },
-    { id: "2", value: "10+", label: "ปีแห่งประสบการณ์" },
-    { id: "3", value: "500+", label: "แบรนด์ที่ไว้วางใจ" },
-    { id: "4", value: "1,000+", label: "แคมเปญทั้งหมด" }
+    { id: "1", value: "320%", label: "Average Client ROI" },
+    { id: "2", value: "10+", label: "Years of Experience" },
+    { id: "3", value: "500+", label: "Trusted Brands" },
+    { id: "4", value: "1,000+", label: "Total Campaigns" }
   ],
   services: {
-    sectionLabel: "บริการของเรา",
-    headline: "บริการการตลาดดิจิทัลครบวงจร",
-    description: "เราดูแลการตลาดออนไลน์ของคุณในทุกมิติ เพื่อการเติบโตอย่างยั่งยืนของธุรกิจคุณ",
+    sectionLabel: "Our Services",
+    headline: "Full-Service Digital Marketing Solutions",
+    description: "We manage all dimensions of your online presence for sustainable business growth.",
     items: [
-      { id: "fb-google", icon: "megaphone", title: "Facebook & Google Ads", description: "ยิงแอดโฆษณาตรงกลุ่มเป้าหมาย เพิ่มยอดขายให้ธุรกิจอย่างรวดเร็วและคุ้มค่าที่สุด" },
-      { id: "seo", icon: "search", title: "SEO (Search Engine Optimization)", description: "ทำอันดับบน Google แบบออร์แกนิก เพื่อทราฟฟิกคุณภาพระยะยาวโดยไม่ต้องจ่ายค่าแอด" },
-      { id: "smm", icon: "share2", title: "Social Media Marketing", description: "ดูแลและบริหารช่องทางโซเชียลมีเดีย สร้างคอนเทนต์ดึงดูดใจ สร้างฐานผู้ติดตามที่เหนียวแน่น" },
-      { id: "content", icon: "filetext", title: "Content Marketing", description: "เขียนบทความ คอนเทนต์โฆษณา และงานกราฟิกที่เปลี่ยนผู้เข้าชมเป็นยอดขายจริง" },
-      { id: "web-design", icon: "layout", title: "ออกแบบเว็บไซต์ (Web Design)", description: "ออกแบบเว็บไซต์ตามหลัก UX/UI ที่สวยงาม ทันสมัย ใช้งานง่าย และรองรับมือถือ 100%" },
-      { id: "web-dev", icon: "code2", title: "พัฒนาเว็บไซต์ (Web Development)", description: "เขียนโค้ดทำเว็บไซต์ด้วยเทคโนโลยีที่รวดเร็ว ปลอดภัย และปรับแต่ง SEO ได้สมบูรณ์แบบ" }
+      { id: "fb-google", icon: "megaphone", title: "Facebook & Google Ads", description: "Targeted advertising campaigns that boost your sales quickly and cost-effectively." },
+      { id: "seo", icon: "search", title: "SEO (Search Engine Optimization)", description: "Organic rankings on Google for high-quality, long-term search traffic without ad spend." },
+      { id: "smm", icon: "share2", title: "Social Media Marketing", description: "Manage social channels, create engaging content, and build a loyal follower base." },
+      { id: "content", icon: "filetext", title: "Content Marketing", description: "Write articles, copywriting, and design graphics that convert website visitors into real sales." },
+      { id: "web-design", icon: "layout", title: "Web Design (UX/UI)", description: "Beautiful, modern, and mobile-friendly layouts designed according to UX/UI best practices." },
+      { id: "web-dev", icon: "code2", title: "Web Development", description: "Code fast, secure, and SEO-optimized websites using cutting-edge technologies." }
     ]
   },
   whyUs: {
-    sectionLabel: "ทำไมต้องเลือกเรา",
-    headline: "เอเจนซี่ที่คุณไว้ใจได้ในฐานะพันธมิตรทางธุรกิจ",
-    description: "เราไม่ได้เป็นเพียงผู้รับจ้างยิงแอดทั่วไป แต่เราทำงานร่วมกับคุณเหมือนเป็นทีมการตลาดส่วนตัวที่พร้อมโตไปด้วยกัน",
+    sectionLabel: "Why Choose Us",
+    headline: "Your Trusted Partner for Digital Growth",
+    description: "We are not just another agency; we work as your dedicated marketing team growing alongside you.",
     points: [
-      { id: "1", title: "ทีมงานมืออาชีพตัวจริง", description: "มีประสบการณ์ตรงในการดูแลแบรนด์ใหญ่และ SME ในหลากหลายกลุ่มธุรกิจมาอย่างยาวนาน" },
-      { id: "2", title: "เน้นผลลัพธ์วัดผลได้ (ROI Focus)", description: "ทุกแคมเปญที่เราออกแบบมีเป้าหมายเพื่อเพิ่มยอดขายและความคุ้มค่าของงบโฆษณา" },
-      { id: "3", title: "รายงานผลโปร่งใส ชัดเจน", description: "มีสรุปข้อมูลและผลการทำงานให้ดูอย่างละเอียด เข้าใจง่าย พร้อมคำแนะนำเพื่อปรับปรุง" },
-      { id: "4", title: "บริการครบวงจรในที่เดียว", description: "ดูแลตั้งแต่การทำกลยุทธ์ โฆษณา งานเขียน คอนเทนต์ กราฟิก ตลอดจนพัฒนาเว็บไซต์" }
+      { id: "1", title: "Experienced Professionals", description: "Direct experience managing campaigns for leading brands and SMEs across diverse industries." },
+      { id: "2", title: "ROI-Focused Results", description: "Every campaign is engineered to maximize conversions and advertising spend efficiency." },
+      { id: "3", title: "Transparent Reporting", description: "Clear, comprehensive monthly reports with actionable insights for continuous improvement." },
+      { id: "4", title: "One-Stop Solutions", description: "From strategy and ads management to copy, graphics, and custom website development." }
     ]
   },
   cta: {
-    headline: "พร้อมที่จะเพิ่มยอดขายและเติบโตออนไลน์แล้วหรือยัง?",
-    description: "ปรึกษาผู้เชี่ยวชาญฟรี ไม่มีค่าใช้จ่ายใดๆ ทั้งสิ้น เราจะวิเคราะห์ธุรกิจของคุณและแนะนำกลยุทธ์ที่เหมาะสมที่สุด",
-    buttonText: "ปรึกษาฟรีวันนี้"
+    headline: "Ready to Scale Your Sales and Grow Online?",
+    description: "Get a free strategy consultation today. We will analyze your business and suggest the best path forward.",
+    buttonText: "Claim Your Free Consultation"
   }
 };
 
 export const about = {
   hero: {
-    label: "เกี่ยวกับเรา",
-    headline: "ผู้ขับเคลื่อนความสำเร็จของธุรกิจคุณ",
-    description: "เราคือทีมผู้เชี่ยวชาญด้านการตลาดดิจิทัลและพัฒนาเทคโนโลยี ที่พร้อมเติบโตและสร้างผลลัพธ์ที่จับต้องได้ไปพร้อมกับธุรกิจไทย"
+    label: "About Us",
+    headline: "Driving Success for Your Business",
+    description: "We are a team of digital marketing experts and technologists dedicated to growing businesses and delivering tangible results."
   },
   stats: [
-    { id: "1", value: "10+", label: "ปีแห่งประสบการณ์" },
-    { id: "2", value: "500+", label: "ลูกค้าที่ไว้วางใจ" },
-    { id: "3", value: "1,000+", label: "โปรเจกต์สำเร็จ" },
-    { id: "4", value: "95%", label: "อัตราความพึงพอใจ" }
+    { id: "1", value: "10+", label: "Years of Experience" },
+    { id: "2", value: "500+", label: "Trusted Clients" },
+    { id: "3", value: "1,000+", label: "Completed Projects" },
+    { id: "4", value: "95%", label: "Satisfaction Rate" }
   ],
   story: {
-    label: "เรื่องราวของเรา",
-    headline: "กว่าทศวรรษของการเป็นคู่คิดธุรกิจ SME",
+    label: "Our Story",
+    headline: "A Decade of Empowering Businesses",
     paragraphs: [
-      "AdsHero ก่อตั้งขึ้นจากกลุ่มคนที่รักและหลงใหลในความท้าทายของการตลาดดิจิทัล เราเริ่มต้นจากทีมเล็กๆ ที่มีปณิธานร่วมกันว่าจะช่วยให้ธุรกิจขนาดเล็กและขนาดกลาง (SME) ในประเทศไทยสามารถแข่งขันและเติบโตในโลกออนไลน์ได้อย่างยั่งยืน",
-      "ตลอดกว่า 10 ปีที่ผ่านมา เทคโนโลยีและแพลตฟอร์มต่างๆ อาจจะเปลี่ยนไป แต่ความมุ่งมั่นในการสร้างยอดขายและสร้างผลลัพธ์จริงให้กับลูกค้าของเรายังคงเหมือนเดิม เราดูแลลูกค้าทุกรายเสมือนเป็นหุ้นส่วนทางธุรกิจ และความสำเร็จของแบรนด์ลูกค้าคือเป้าหมายสูงสุดของเรา"
+      "AdsHero was founded by a group of passionate digital marketers who love the challenge of online growth. We started as a small team with a big mission: to help small and medium enterprises (SMEs) compete and win in the digital landscape.",
+      "Over the past 10 years, technologies and platforms have evolved, but our commitment to driving sales and delivering real results has remained constant. We treat every client as a partner, and your success is our ultimate goal."
     ]
   },
   values: {
-    label: "ค่านิยมหลักของเรา",
-    headline: "หลักการที่เรายึดมั่นเพื่อนำทางธุรกิจคุณ",
+    label: "Our Core Values",
+    headline: "Principles That Guide Our Success",
     items: [
-      { id: "v1", icon: "target", title: "เน้นผลลัพธ์จริง", description: "เราไม่ได้ทำงานเพียงเพื่อให้เสร็จ แต่เราทำเพื่อผลลัพธ์ที่ช่วยขับเคลื่อนธุรกิจคุณได้จริง" },
-      { id: "v2", icon: "shield", title: "ความซื่อสัตย์โปร่งใส", description: "การทำงานที่ตรงไปตรงมา รายงานผลลัพธ์ตามจริง และการใช้งบประมาณอย่างคุ้มค่าสูงสุด" },
-      { id: "v3", icon: "users", title: "ลูกค้าคือพาร์ทเนอร์", description: "เราทำงานร่วมกันอย่างใกล้ชิด รับฟัง ร่วมแก้ไข และพัฒนาแผนงานให้สอดคล้องกับคุณ" },
-      { id: "v4", icon: "zap", title: "พัฒนาอย่างไม่หยุดยั้ง", description: "อัปเดตความรู้ เทรนด์การตลาด และเทคโนโลยีใหม่ๆ อยู่เสมอเพื่อให้ธุรกิจคุณนำหน้าคู่แข่ง" }
+      { id: "v1", icon: "target", title: "Results-Driven", description: "We focus on outcomes that push your business forward, not just ticking off tasks." },
+      { id: "v2", icon: "shield", title: "Integrity & Transparency", description: "Honest reporting, straightforward communication, and efficient budget allocation." },
+      { id: "v3", icon: "users", title: "Customer-Centric", description: "Working closely with you to listen, adapt, and refine strategies to match your goals." },
+      { id: "v4", icon: "zap", title: "Continuous Innovation", description: "Staying ahead of trends and adopting new tools to keep your business ahead of the competition." }
     ]
   },
   cta: {
-    headline: "ร่วมเป็นส่วนหนึ่งของความสำเร็จไปกับเรา",
-    description: "เราพร้อมเป็นคู่คิดที่ช่วยปลดล็อกศักยภาพการเติบโตทางออนไลน์ให้กับแบรนด์ของคุณ",
-    buttonText: "เริ่มต้นร่วมงานกับเรา"
+    headline: "Let's Build Your Success Together",
+    description: "We are ready to act as your partner to unlock your brand's digital growth potential.",
+    buttonText: "Get Started with Us"
   }
 };
 
 export const services = {
   hero: {
-    label: "บริการของเรา",
-    headline: "โซลูชันการตลาดออนไลน์ที่ออกแบบมาเพื่อธุรกิจคุณ",
-    description: "เรานำเสนอบริการการตลาดออนไลน์แบบครบวงจร ตั้งแต่การทำแคมเปญโฆษณาไปจนถึงงานออกแบบและพัฒนาเว็บไซต์คุณภาพสูง"
+    label: "Our Services",
+    headline: "Online Solutions Tailored to Your Business",
+    description: "From performance marketing campaigns to premium web design and development, we provide end-to-end digital growth services."
   },
   services: [
     {
       id: "ads",
       icon: "megaphone",
       title: "Facebook & Google Ads",
-      tagline: "เพิ่มยอดขายตรงกลุ่มเป้าหมายทันที",
-      description: "บริการยิงแอด วางกลยุทธ์ และเพิ่มประสิทธิภาพโฆษณาบน Facebook, Instagram, Google Search, GDN และ Youtube โดยผู้เชี่ยวชาญ",
+      tagline: "Immediate sales from target audiences",
+      description: "Targeted performance ads, funnel design, and budget optimization across Facebook, Instagram, Google Search, GDN, and YouTube.",
       features: [
-        "วิเคราะห์และระบุกลุ่มเป้าหมายที่แม่นยำ",
-        "วางแผนและออกแบบโฆษณาเชิงสร้างสรรค์",
-        "ทดสอบและปรับแต่งแคมเปญเพื่อเพิ่ม ROI",
-        "รายงานผลและสรุปยอดละเอียดทุกเดือน"
+        "Precise audience analysis & targeting",
+        "Creative ad design and copy",
+        "A/B testing for maximum ROI",
+        "Detailed monthly performance reports"
       ],
-      price: "เริ่มต้น 15,000.-/เดือน"
+      price: "Starts at ฿15,000 / month"
     },
     {
       id: "seo",
       icon: "search",
       title: "SEO (Search Engine Optimization)",
-      tagline: "สร้างโอกาสการขายแบบยั่งยืนบน Google",
-      description: "ทำอันดับเว็บไซต์ให้อยู่หน้าแรกของ Google แบบธรรมชาติ ดึงทราฟฟิกคุณภาพระยะยาวแบบไม่ต้องเสียเงินค่าโฆษณาต่อคลิก",
+      tagline: "Sustainable organic growth on Google",
+      description: "Rank your website on the first page of Google organically, attracting high-intent search traffic without per-click ad fees.",
       features: [
-        "วิเคราะห์คีย์เวิร์ดที่สร้างยอดขายได้จริง",
-        "ปรับแต่งโครงสร้างเว็บให้สอดคล้องกับ Google (On-Page)",
-        "เขียนเนื้อหาคุณภาพและทำลิงก์พรีเมียม (Off-Page)",
-        "วิเคราะห์อันดับและสรุปผลคีย์เวิร์ดรายเดือน"
+        "High-intent keyword research",
+        "On-Page SEO and technical audit",
+        "Content creation & link building (Off-Page)",
+        "Monthly rankings & traffic tracking reports"
       ],
-      price: "เริ่มต้น 20,000.-/เดือน"
+      price: "Starts at ฿20,000 / month"
     },
     {
       id: "social",
       icon: "share2",
       title: "Social Media Marketing",
-      tagline: "สร้างตัวตนแบรนด์ให้โดดเด่นน่าจดจำ",
-      description: "บริการบริหารจัดการหน้าเพจ สร้างสรรค์คอนเทนต์และดูแลช่องทางโซเชียลมีเดียทั้ง Facebook, IG, Line, TikTok",
+      tagline: "Build a standout online presence",
+      description: "Complete social media page management, creative post creation, and channel growth for Facebook, IG, Line, and TikTok.",
       features: [
-        "วางแผนปฏิทินคอนเทนต์รายเดือน",
-        "สร้างภาพกราฟิกสไตล์พรีเมียม โดนใจกลุ่มเป้าหมาย",
-        "เขียนแคปชันโฆษณาและการเล่าเรื่องเชิงขาย",
-        "บริการตอบแชทและปิดการขาย (Add-on)"
+        "Monthly content calendar planning",
+        "Premium graphic design tailored to your brand",
+        "Engaging copywriting and storytelling",
+        "Community management & chat support (Add-on)"
       ],
-      price: "เริ่มต้น 12,000.-/เดือน"
+      price: "Starts at ฿12,000 / month"
     },
     {
       id: "content",
       icon: "filetext",
       title: "Content Marketing",
-      tagline: "สื่อสารอย่างทรงพลัง เปลี่ยนผู้อ่านเป็นลูกค้า",
-      description: "เขียนบทความ คอนเทนต์รีวิว และสร้างสรรค์เรื่องราวเกี่ยวกับแบรนด์ เพื่อสร้างความน่าเชื่อถือและจูงใจลูกค้าให้อยากซื้อ",
+      tagline: "Powerful messaging that converts",
+      description: "Blogging, article writing, product reviews, and brand storytelling that build trust and drive conversions.",
       features: [
-        "วิเคราะห์แนวทางการสื่อสารของแบรนด์",
-        "เขียนบทความเพื่อดัน SEO และบทความให้ข้อมูลเชิงลึก",
-        "สร้างคอนเทนต์สำหรับหน้า Sale Page และ Landing Page",
-        "ตรวจเช็กและคัดเกรดคุณภาพคำโฆษณาทุกชิ้น"
+        "Brand voice and messaging strategy",
+        "SEO-friendly blog posts & articles",
+        "High-converting landing page copywriting",
+        "Professional editing and proofreading"
       ],
-      price: "เริ่มต้น 8,000.-/เดือน"
+      price: "Starts at ฿8,000 / month"
     },
     {
       id: "web-design",
       icon: "layout",
-      title: "ออกแบบเว็บไซต์ (Web Design)",
-      tagline: "ดีไซน์หรูหรา ใช้งานง่าย ปิดการขายได้เร็ว",
-      description: "บริการออกแบบเว็บไซต์ โครงสร้างหน้าเพจ และปุ่มนำทางตามหลัก UX/UI เพื่อประสบการณ์การใช้งานที่ดีเยี่ยมบนทุกอุปกรณ์",
+      title: "Web Design (UX/UI)",
+      tagline: "Elegant, intuitive, and conversion-optimized",
+      description: "Custom layouts, wireframing, and user-flow design created to maximize customer engagement across all devices.",
       features: [
-        "ออกแบบโครงร่างหน้าเว็บเฉพาะแบรนด์ (Custom Wireframe)",
-        "ดีไซน์สวยงามตามอัตลักษณ์องค์กร (Branding Design)",
-        "วิเคราะห์และจัดวางองค์ประกอบเพื่อกระตุ้นยอดขาย (Conversion rate)",
-        "ส่งมอบไฟล์ต้นฉบับคุณภาพสูง (Figma)"
+        "Custom layout & wireframe design",
+        "Premium visual branding integration",
+        "Conversion rate optimization (CRO) layouts",
+        "Source Figma design files delivery"
       ],
-      price: "เริ่มต้น 25,000.-/โปรเจกต์"
+      price: "Starts at ฿25,000 / project"
     },
     {
       id: "web-dev",
       icon: "code2",
-      title: "พัฒนาเว็บไซต์ (Web Development)",
-      tagline: "เว็บไซต์ความเร็วสูง ปลอดภัย และปรับแต่งง่าย",
-      description: "เขียนโค้ดพัฒนาเว็บไซต์ตามดีไซน์ด้วยเทคโนโลยีชั้นนำ มีโครงสร้างระบบที่ดี โหลดรวดเร็ว ปลอดภัย และรองรับ SEO เต็มพิกัด",
+      title: "Web Development",
+      tagline: "Fast, secure, and modern websites",
+      description: "Clean code implementation matching custom designs with fast loading times, robust security, and technical SEO ready.",
       features: [
-        "พัฒนาด้วย React, Next.js หรือ WordPress ปรับแต่งพิเศษ",
-        "รองรับการใช้งานบนมือถือและแท็บเล็ต 100%",
-        "ระบบหลังบ้านจัดการข้อมูลบทความและรูปภาพง่าย",
-        "เชื่อมต่อระบบ Analytics และพิกเซลเก็บข้อมูลผู้เข้าชม"
+        "Custom React, Next.js, or WordPress builds",
+        "100% responsive and mobile-friendly",
+        "Intuitive backend CMS for easy editing",
+        "Analytics and tracking pixels integration"
       ],
-      price: "เริ่มต้น 35,000.-/โปรเจกต์"
+      price: "Starts at ฿35,000 / project"
     }
   ],
   process: {
-    label: "ขั้นตอนการทำงาน",
-    headline: "ขั้นตอนสู่ความสำเร็จของแคมเปญคุณ",
+    label: "Our Process",
+    headline: "Steps to a Successful Campaign",
     steps: [
-      { id: "p1", number: "01", title: "พูดคุยและวิเคราะห์ธุรกิจ", description: "ร่วมวิเคราะห์แบรนด์ คู่แข่ง และกำหนดเป้าหมายเชิงธุรกิจกับคุณอย่างละเอียด" },
-      { id: "p2", number: "02", title: "วางแผนกลยุทธ์", description: "ออกแบบกลยุทธ์การตลาดดิจิทัลและแผนงานรายเดือนเพื่อส่งต่อให้ลูกค้าพิจารณา" },
-      { id: "p3", number: "03", title: "เริ่มดำเนินการและดูแล", description: "ทีมงานสร้างสรรค์เนื้อหา เซ็ตโฆษณา หรือพัฒนาเว็บตามไทม์ไลน์ที่ระบุอย่างเป็นระบบ" },
-      { id: "p4", number: "04", title: "รายงานผลและปรับปรุง", description: "วัดผลลัพธ์อย่างตรงไปตรงมา นำเสนอสถิติต่างๆ และปรับกลยุทธ์เพื่อเป้าหมายที่ดียิ่งขึ้น" }
+      { id: "p1", number: "01", title: "Business Analysis", description: "We analyze your brand, competitors, and target audience to define clear goals." },
+      { id: "p2", number: "02", title: "Strategic Planning", description: "Design a customized digital marketing roadmap and monthly plan for review." },
+      { id: "p3", number: "03", title: "Execution & Management", description: "Our team implements the strategy, creates content, sets up ads, or codes the site." },
+      { id: "p4", number: "04", title: "Reporting & Optimization", description: "Analyze performance metrics and optimize campaigns for even better outcomes." }
     ]
   },
   cta: {
-    headline: "พร้อมยกระดับธุรกิจของคุณไปอีกขั้นแล้วหรือยัง?",
-    description: "ติดต่อเราเพื่อรับการประเมินกลยุทธ์โฆษณาหรือประเมินราคาทำเว็บไซต์เบื้องต้นได้ทันที",
-    buttonText: "คุยกับผู้เชี่ยวชาญการตลาด"
+    headline: "Ready to Scale Your Business?",
+    description: "Get in touch for a free marketing assessment or website development quote today.",
+    buttonText: "Talk to a Growth Expert"
   }
 };
 
 export const contact = {
   hero: {
-    label: "ติดต่อเรา",
-    headline: "ร่วมงานและเติบโตไปพร้อมกับเรา",
-    description: "เราพร้อมตอบคำถาม ให้คำแนะนำ และทำงานร่วมกับคุณเพื่อสร้างผลลัพธ์ที่ดีที่สุดในการทำการตลาดออนไลน์"
+    label: "Contact Us",
+    headline: "Let's Grow Together",
+    description: "We're here to answer your questions, provide insights, and collaborate to drive your business success."
   },
   info: {
     companyName: "Adshero Digital Group LLC",
@@ -202,144 +202,144 @@ export const contact = {
     phone: "+66 (0) 96-872-1224",
     email: "info@adshero.online",
     line: "@adshero",
-    hours: "จันทร์ - ศุกร์: 09:00 น. - 18:00 น.",
+    hours: "Monday - Friday: 09:00 AM - 06:00 PM",
     address: "590 ถนนท่าข้าม แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
     addressEn: "590 Tha Kham Road, Samae Dam Subdistrict, Bang Khun Thian District, Bangkok 10150"
   },
   form: {
-    title: "ส่งข้อความถึงเรา",
-    successMessage: "ข้อมูลของคุณได้รับการส่งเรียบร้อยแล้ว ทีมงาน AdsHero จะติดต่อกลับหาคุณภายใน 24 ชั่วโมง",
-    namePlaceholder: "ชื่อ - นามสกุล ของคุณ",
-    emailPlaceholder: "อีเมลติดต่อกลับ",
-    phonePlaceholder: "เบอร์โทรศัพท์ของคุณ",
-    servicePlaceholder: "เลือกบริการที่คุณสนใจ",
-    messagePlaceholder: "รายละเอียดธุรกิจ ความต้องการ หรือรายละเอียดบริการที่สนใจ...",
-    submitText: "ส่งข้อความติดต่อกลับ"
+    title: "Send Us a Message",
+    successMessage: "Your message has been sent successfully. Our team will contact you back within 24 hours.",
+    namePlaceholder: "Your Full Name",
+    emailPlaceholder: "Your Email Address",
+    phonePlaceholder: "Your Phone Number",
+    servicePlaceholder: "Select a Service",
+    messagePlaceholder: "Tell us about your business goals, requirements, or services of interest...",
+    submitText: "Send Message"
   }
 };
 
 export const privacy = {
-  title: "นโยบายความเป็นส่วนตัว",
-  lastUpdated: "23 กรกฎาคม 2026",
-  intro: "ที่ AdsHero เราให้ความสำคัญกับการปกป้องข้อมูลส่วนบุคคลของลูกค้าและผู้เข้าชมเว็บไซต์เป็นอย่างยิ่ง เอกสารนโยบายฉบับนี้อธิบายเกี่ยวกับข้อมูลที่เราเก็บรวบรวม วิธีการใช้งาน และสิทธิต่างๆ ของคุณเกี่ยวกับข้อมูลเหล่านั้นตามพ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล (PDPA)",
+  title: "Privacy Policy",
+  lastUpdated: "July 24, 2026",
+  intro: "At AdsHero, we are committed to protecting the personal data of our clients and website visitors. This privacy policy describes what information we collect, how we use it, and your rights regarding that information under the Personal Data Protection Act (PDPA).",
   sections: [
     {
       id: "sec1",
-      title: "การเก็บรวบรวมข้อมูลส่วนบุคคล",
-      content: "เราอาจทำการเก็บรวบรวมข้อมูลส่วนบุคคลของคุณ เช่น ชื่อ นามสกุล อีเมล เบอร์โทรศัพท์ และข้อมูลธุรกิจของคุณ เมื่อคุณกรอกแบบฟอร์มติดต่อสอบถามในเว็บไซต์ของเรา ส่งข้อความหาเรา หรือลงชื่อเข้าสมัครรับข้อมูลข่าวสารของเราโดยตรง"
+      title: "Data Collection",
+      content: "We may collect personal data such as your name, email, phone number, and business details when you fill out contact forms, message us, or subscribe to our newsletter."
     },
     {
       id: "sec2",
-      title: "การใช้งานข้อมูลส่วนบุคคล",
-      content: "เรานำข้อมูลที่จัดเก็บไปใช้เพื่อการตอบกลับคำขอรับคำปรึกษา การดำเนินการจัดส่งเสนอบริการ การแจ้งข่าวสารกิจกรรมประชาสัมพันธ์ที่ลูกค้าอาจสนใจ การปรับปรุงประสิทธิภาพเว็บไซต์ ตลอดจนการพัฒนาแคมเปญการตลาดของแบรนด์ให้มีประสิทธิภาพสูงขึ้น"
+      title: "Data Usage",
+      content: "We use the collected data to respond to inquiries, deliver services, send promotional updates, analyze website performance, and optimize our marketing campaigns."
     },
     {
       id: "sec3",
-      title: "การเปิดเผยข้อมูลแก่บุคคลภายนอก",
-      content: "เราจะไม่มีวันจำหน่าย แลกเปลี่ยน หรือส่งต่อข้อมูลส่วนบุคคลของคุณไปยังบุคคลภายนอกโดยไม่ได้รับอนุญาต ยกเว้นในกรณีที่มีความจำเป็นทางกฎหมาย หรือกรณีการส่งต่อให้พาร์ทเนอร์ที่สนับสนุนระบบบริการที่มีการทำสัญญาปกปิดข้อมูลอย่างรัดกุม"
+      title: "Data Sharing & Disclosure",
+      content: "We will never sell or trade your personal data. We only share information with trusted partners who assist in serving you under strict confidentiality agreements."
     },
     {
       id: "sec4",
-      title: "คุกกี้ (Cookies)",
-      content: "เว็บไซต์ของเราใช้งานคุกกี้เพื่อปรับปรุงประสบการณ์ในการใช้อินเทอร์เน็ตของคุณ รวมถึงจดจำเซสชันการเข้าใช้งาน และเก็บสถิติต่างๆ เพื่อวิเคราะห์ระบบการทำงาน ลูกค้าสามารถตั้งค่าปิดรับคุกกี้บนเว็บเบราว์เซอร์ของตัวเองได้ทุกเมื่อ"
+      title: "Cookies",
+      content: "Our website uses cookies to enhance your browsing experience, remember sessions, and collect analytics. You can disable cookies in your browser settings at any time."
     },
     {
       id: "sec5",
-      title: "สิทธิ์ของเจ้าของข้อมูล",
-      content: "คุณมีสิทธิ์ในการเข้าถึง ขอแก้ไข ขอระงับใช้งาน ตลอดจนการร้องขอให้ลบข้อมูลส่วนบุคคลของคุณออกจากระบบฐานข้อมูลของ AdsHero ได้ตลอดเวลาโดยการส่งอีเมลติดต่อทีมงานของเราโดยตรง"
+      title: "Your Rights",
+      content: "You have the right to access, edit, restrict, or request the deletion of your personal data from AdsHero's database at any time by contacting us directly."
     }
   ]
 };
 
 export const works = {
   hero: {
-    label: "ผลงานของเรา",
-    headline: "ความสำเร็จและผลงานที่เราภาคภูมิใจ",
-    description: "รวบรวมผลงานความสำเร็จจากการทำการตลาดออนไลน์และสร้างเว็บไซต์ให้กับลูกค้าของเรา ซึ่งสะท้อนผ่านผลลัพธ์จริง ยอดขายที่เพิ่มขึ้น และประสิทธิภาพของแคมเปญ"
+    label: "Our Works",
+    headline: "Success Stories We Take Pride In",
+    description: "Explore some of our recent digital marketing campaigns and web development projects, showing measurable growth, increased sales, and optimization."
   },
   categories: [
-    "ทั้งหมด",
+    "All",
     "Facebook & Google Ads",
     "SEO",
-    "พัฒนาเว็บไซต์"
+    "Web Development"
   ],
   items: [
     {
       id: "w1",
-      title: "ดันยอดขายคลินิกความงามเพิ่มขึ้น 3 เท่า",
+      title: "Triple Sales for Premium Beauty Clinic",
       category: "Facebook & Google Ads",
       client: "Aura Premium Clinic",
       metrics: [
-        { label: "ROI โฆษณา", value: "320%" },
-        { label: "ยอดคนจองบริการ", value: "+250%" }
+        { label: "Ad ROI", value: "320%" },
+        { label: "Bookings", value: "+250%" }
       ],
-      description: "ออกแบบแคมเปญยิงแอด Facebook และ Google Search แบบระบุพิกัดเป้าหมายรอบคลินิก ดึงลูกค้าจองคอร์สและเข้ามารับบริการความงามเชิงลึกได้อย่างทวีคูณ",
+      description: "Engineered localized Facebook and Google search campaigns targeting surrounding areas, driving high-value bookings and foot traffic to the clinic.",
       tags: ["Facebook Ads", "Google Search", "Beauty Industry", "Lead Generation"]
     },
     {
       id: "w2",
-      title: "ทำอันดับคีย์เวิร์ดติดหน้าแรก Google กว่า 120 คำ",
+      title: "Ranked 120+ High-Volume Keywords on Google First Page",
       category: "SEO",
       client: "Grand Home Real Estate",
       metrics: [
         { label: "Organic Traffic", value: "+180%" },
-        { label: "อันดับในหน้าแรก", value: "120+ คีย์เวิร์ด" }
+        { label: "First Page Keywords", value: "120+" }
       ],
-      description: "ปรับปรุงโครงสร้างเว็บไซต์สำหรับอสังหาริมทรัพย์และพัฒนาบล็อกคอนเทนต์คุณภาพสูง ช่วยนำส่งผู้ใช้ที่สนใจซื้อบ้าน คอนโด เข้าเว็บตรงกลุ่มแบบไม่ต้องยิงแอด",
+      description: "Audited property website structure and created high-value real estate blog content, driving highly relevant organic buyer traffic without ad spend.",
       tags: ["SEO Audit", "On-Page Optimization", "Content Creation", "Link Building"]
     },
     {
       id: "w3",
-      title: "ออกแบบและพัฒนาเว็บไซต์ E-commerce หรูหรา",
-      category: "พัฒนาเว็บไซต์",
+      title: "UX/UI Design & React Development for Luxury E-commerce",
+      category: "Web Development",
       client: "ChicStyle Fashion Brand",
       metrics: [
-        { label: "ความเร็วหน้าเว็บ", value: "98/100" },
-        { label: "ยอดขายออนไลน์ผ่านเว็บ", value: "+150%" }
+        { label: "Page Speed", value: "98/100" },
+        { label: "Online Sales", value: "+150%" }
       ],
-      description: "ออกแบบเว็บไซต์ด้วย React สไตล์มินิมอล โทนสีเรียบหรู พร้อมระบบตะกร้าสินค้า ชำระเงินง่ายดาย และมีความปลอดภัยตามมาตรฐานสากล",
+      description: "Designed a minimalist React web app with smooth user flows, unified cart-checkout flow, and secure payment integrations matching international standards.",
       tags: ["React JS", "UX/UI Design", "Tailwind CSS", "E-commerce System"]
     },
     {
       id: "w4",
-      title: "ยิงโฆษณาอาหารเสริมเพิ่มยอดซื้อซ้ำ 40%",
+      title: "Health Supplements Ad Campaigns: 40% Increase in Retention",
       category: "Facebook & Google Ads",
       client: "Vitality Supplements",
       metrics: [
-        { label: "Cost Per Acquisition", value: "-25%" },
-        { label: "อัตราซื้อซ้ำ (Retention Rate)", value: "+40%" }
+        { label: "Acquisition Cost", value: "-25%" },
+        { label: "Retention Rate", value: "+40%" }
       ],
-      description: "ทำกลยุทธ์การตลาดผ่านวิดีโอรีวิวสั้น ยิงแอด Facebook Retargeting และทำโฆษณาใน Google Shopping Ads ปั๊มยอดขายสินค้าดูแลสุขภาพ",
+      description: "Leveraged video review creatives, Facebook retargeting funnels, and Google Shopping ads to drive product subscription and repeat purchases.",
       tags: ["Retargeting", "Video Ads", "Google Shopping", "Supplements"]
     },
     {
       id: "w5",
-      title: "พัฒนาเว็บไซต์องค์กรและระบบจองบริการล่วงหน้า",
-      category: "พัฒนาเว็บไซต์",
+      title: "Corporate Portal & Real-time Dental Booking System",
+      category: "Web Development",
       client: "Dental Care Center",
       metrics: [
-        { label: "อัตราจองออนไลน์", value: "+85%" },
-        { label: "การใช้งานผ่านมือถือ", value: "100% Responsive" }
+        { label: "Online Bookings", value: "+85%" },
+        { label: "Mobile Traffic", value: "100% Responsive" }
       ],
-      description: "พัฒนาเว็บไซต์และออกแบบระบบนัดหมายออนไลน์เชื่อมต่อปฏิทินคุณหมอ เพื่ออำนวยความสะดวกให้ผู้ป่วยเข้ามาจองเวลาทำฟันได้รวดเร็วทันใจ",
+      description: "Developed a Next.js portal integrated with calendar booking API, enabling patients to easily schedule checkups and consult specialists online.",
       tags: ["Next.js", "Booking Integration", "Mobile Optimization", "Medical SEO"]
     },
     {
       id: "w6",
-      title: "ดันเว็บไซต์นำเข้าเครื่องจักรอุตสาหกรรมติด SEO",
+      title: "B2B Lead Generation for Heavy Machinery Importer",
       category: "SEO",
       client: "MegaTech Machine",
       metrics: [
-        { label: "ยอดขอใบเสนอราคา", value: "+110%" },
-        { label: "B2B Organic Leads", value: "2.5 เท่า" }
+        { label: "Quote Inquiries", value: "+110%" },
+        { label: "B2B Organic Leads", value: "2.5x" }
       ],
-      description: "เจาะลึกทำคีย์เวิร์ดแนว B2B ติดอันดับสำหรับเครื่องจักรเฉพาะทางและเครื่องมืออุตสาหกรรมหนัก สร้างการติดต่อจากโรงงานเพื่อขอใบเสนอราคาโดยตรง",
+      description: "Implemented a B2B search engine strategy for industrial terms, attracting factories directly to submit online RFQ forms.",
       tags: ["Industrial SEO", "B2B Marketing", "Keyword Strategy", "Lead Capture"]
     }
   ],
   cta: {
-    headline: "พร้อมร่วมสร้างผลงานและตัวเลขความสำเร็จกับเราหรือยัง?",
-    description: "ทีมงาน AdsHero ยินดีร่วมให้คำปรึกษา วางกลยุทธ์การตลาดและพัฒนาเทคโนโลยีเพื่อพาธุรกิจคุณพุ่งทะยานสู่ยอดขายใหม่",
-    buttonText: "ติดต่อปรึกษากลยุทธ์ธุรกิจฟรี"
+    headline: "Ready to Write Your Success Story?",
+    description: "Partner with AdsHero to consult on marketing strategy or start building your custom high-performance web app today.",
+    buttonText: "Consult a Strategist for Free"
   }
 };

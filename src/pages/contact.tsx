@@ -49,7 +49,7 @@ export default function ContactPage() {
         // Simple client-side validation
         if (!form.name || !form.email || !form.message) {
             setStatus('error');
-            setErrorMsg('กรุณากรอกข้อมูลในช่องที่มีเครื่องหมาย * ให้ครบถ้วน');
+            setErrorMsg('Please fill in all required fields marked with *.');
             return;
         }
 
@@ -61,9 +61,9 @@ export default function ContactPage() {
                 conversation: {
                     messages_attributes: [{ body: form.message }],
                     data: {
-                        __gd_contact_form_title: 'ติดต่อ AdsHero',
-                        'เบอร์โทรศัพท์': form.phone,
-                        'บริการที่สนใจ': form.service,
+                        __gd_contact_form_title: 'Contact AdsHero',
+                        'Phone Number': form.phone,
+                        'Interested Service': form.service,
                     },
                 },
                 user: {
@@ -95,11 +95,11 @@ export default function ContactPage() {
                 setForm({ name: '', email: '', phone: '', service: '', message: '' });
             } else {
                 setStatus('error');
-                setErrorMsg(data.error || 'เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง');
+                setErrorMsg(data.error || 'An error occurred. Please try again.');
             }
         } catch {
             setStatus('error');
-            setErrorMsg('ไม่สามารถส่งข้อความได้ กรุณาลองใหม่อีกครั้ง');
+            setErrorMsg('Failed to send message. Please try again.');
         }
     };
 
@@ -107,7 +107,7 @@ export default function ContactPage() {
         '@context': 'https://schema.org',
         '@type': 'ContactPage',
         '@id': `${site}/contact#webpage`,
-        name: 'ติดต่อ AdsHero',
+        name: 'Contact AdsHero',
         url: `${site}/contact`,
         isPartOf: { '@id': `${site}/#website` },
         about: { '@id': `${site}/#organization` },
@@ -116,11 +116,11 @@ export default function ContactPage() {
     return (
         <>
             <Helmet>
-                <title>ติดต่อเรา — AdsHero การตลาดดิจิทัล</title>
-                <meta name="description" content="ติดต่อทีม AdsHero เพื่อรับคำปรึกษาฟรีเกี่ยวกับการตลาดออนไลน์ โทร +66 (0) 96-872-1224 หรือส่งข้อความผ่านแบบฟอร์ม" />
+                <title>Contact Us — AdsHero Digital Marketing</title>
+                <meta name="description" content="Get in touch with the AdsHero team for a free digital marketing consultation. Call +66 (0) 96-872-1224 or submit our contact form." />
                 <link rel="canonical" href={`${site}/contact`} />
-                <meta property="og:title" content="ติดต่อ AdsHero" />
-                <meta property="og:description" content="ปรึกษาผู้เชี่ยวชาญการตลาดดิจิทัลฟรี ไม่มีข้อผูกมัด" />
+                <meta property="og:title" content="Contact AdsHero" />
+                <meta property="og:description" content="Consult our digital marketing experts for free, no commitments." />
                 <meta property="og:url" content={`${site}/contact`} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />

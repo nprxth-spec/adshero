@@ -46,13 +46,13 @@ export default function HomePage() {
                 '@id': `${site}/#organization`,
                 name: 'AdsHero',
                 url: `${site}/`,
-                description: 'เอเจนซี่การตลาดออนไลน์ครบวงจร รับทำโฆษณา Facebook & Google Ads, SEO, Social Media, ออกแบบและพัฒนาเว็บไซต์',
+                description: 'Full-service digital marketing agency. Facebook & Google Ads, SEO, Social Media, and Web Design & Development.',
             },
             {
                 '@type': 'WebPage',
                 '@id': `${site}/#webpage`,
                 url: `${site}/`,
-                name: 'AdsHero — การตลาดออนไลน์ครบวงจร & รับทำเว็บไซต์',
+                name: 'AdsHero — Full-Service Digital Marketing Agency & Web Development',
                 isPartOf: { '@id': `${site}/#website` },
                 about: { '@id': `${site}/#organization` },
                 datePublished: '2026-07-23',
@@ -64,14 +64,14 @@ export default function HomePage() {
     return (
         <>
             <Helmet>
-                <title>AdsHero — การตลาดออนไลน์ครบวงจร & รับทำเว็บไซต์</title>
+                <title>AdsHero — Full-Service Digital Marketing Agency & Web Development</title>
                 <meta
                     name="description"
-                    content="AdsHero เอเจนซี่การตลาดออนไลน์ครบวงจร รับทำโฆษณา Facebook & Google Ads, SEO, Social Media, ออกแบบและพัฒนาเว็บไซต์ทุกประเภท สำหรับธุรกิจ SME"
+                    content="AdsHero is a full-service digital marketing agency offering Facebook & Google Ads, SEO, Social Media management, and website design & development for SMEs."
                 />
                 <link rel="canonical" href={site} />
-                <meta property="og:title" content="AdsHero — การตลาดออนไลน์ครบวงจร" />
-                <meta property="og:description" content="เพิ่มยอดขาย เติบโตออนไลน์ด้วยผลลัพธ์ที่วัดได้จริง" />
+                <meta property="og:title" content="AdsHero — Full-Service Digital Marketing Agency" />
+                <meta property="og:description" content="Boost sales and grow online with measurable results." />
                 <meta property="og:url" content={site} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />

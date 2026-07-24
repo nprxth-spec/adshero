@@ -41,9 +41,9 @@ export default function Footer() {
             </Link>
             <div className="text-xs text-slate-500 leading-relaxed max-w-xs space-y-1">
               <p className="font-bold text-slate-700">{contact.info.companyName}</p>
-              <p>เลขทะเบียนนิติบุคคล: {contact.info.registrationNumber}</p>
+              <p>Registration No: {contact.info.registrationNumber}</p>
               <p className="text-sm pt-1">
-                เอเจนซี่การตลาดออนไลน์ครบวงจร มุ่งมั่นเพิ่มยอดขายและขยายการเติบโตให้ธุรกิจคุณด้วยผลลัพธ์ที่วัดได้จริง
+                Full-service digital marketing agency dedicated to scaling your business with measurable growth.
               </p>
             </div>
             <div className="flex items-center gap-3">
@@ -72,19 +72,19 @@ export default function Footer() {
 
           {/* Column 2: Services */}
           <div>
-            <h4 className="text-sm font-bold text-primary tracking-wider uppercase mb-5">บริการของเรา</h4>
+            <h4 className="text-sm font-bold text-primary tracking-wider uppercase mb-5">Our Services</h4>
             <ul className="space-y-3">
               {[
                 { label: 'Facebook & Google Ads', path: '/services#ads' },
-                { label: 'SEO ทำอันดับกูเกิล', path: '/services#seo' },
+                { label: 'SEO Optimization', path: '/services#seo' },
                 { label: 'Social Media Marketing', path: '/services#social' },
                 { label: 'Content Marketing', path: '/services#content' },
-                { label: 'ออกแบบเว็บไซต์ UX/UI', path: '/services#web-design' },
-                { label: 'พัฒนาเว็บไซต์ React/WordPress', path: '/services#web-dev' }
+                { label: 'UX/UI Web Design', path: '/services#web-design' },
+                { label: 'React/WordPress Development', path: '/services#web-dev' }
               ].map((link) => (
                 <li key={link.label}>
                   <Link
-                    to="/services"
+                    to={link.path}
                     className="text-sm text-slate-500 hover:text-accent transition-colors flex items-center gap-1 group"
                   >
                     <ArrowRight size={12} className="opacity-0 -ml-3 group-hover:opacity-100 group-hover:ml-0 transition-all duration-200" />
@@ -97,14 +97,14 @@ export default function Footer() {
 
           {/* Column 3: Quick Links */}
           <div>
-            <h4 className="text-sm font-bold text-primary tracking-wider uppercase mb-5">ข้อมูลองค์กร</h4>
+            <h4 className="text-sm font-bold text-primary tracking-wider uppercase mb-5">Company Info</h4>
             <ul className="space-y-3">
               {[
-                { label: 'เกี่ยวกับเรา', path: '/about' },
-                { label: 'ผลงานของเรา', path: '/works' },
-                { label: 'บริการทั้งหมด', path: '/services' },
-                { label: 'ติดต่อเรา', path: '/contact' },
-                { label: 'นโยบายความเป็นส่วนตัว', path: '/privacy' }
+                { label: 'About Us', path: '/about' },
+                { label: 'Our Works', path: '/works' },
+                { label: 'All Services', path: '/services' },
+                { label: 'Contact Us', path: '/contact' },
+                { label: 'Privacy Policy', path: '/privacy' }
               ].map((link) => (
                 <li key={link.label}>
                   <Link
@@ -121,11 +121,11 @@ export default function Footer() {
 
           {/* Column 4: Contact info */}
           <div>
-            <h4 className="text-sm font-bold text-primary tracking-wider uppercase mb-5">ติดต่อเรา</h4>
+            <h4 className="text-sm font-bold text-primary tracking-wider uppercase mb-5">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex gap-3 text-slate-500">
                 <MapPin size={20} className="text-accent shrink-0 mt-0.5" />
-                <span className="text-sm leading-relaxed">{contact.info.address}</span>
+                <span className="text-sm leading-relaxed">{contact.info.addressEn}</span>
               </li>
               <li className="flex items-center gap-3 text-slate-500">
                 <Phone size={18} className="text-accent shrink-0" />
@@ -155,7 +155,7 @@ export default function Footer() {
             &copy; {currentYear} AdsHero. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-slate-400">
-            <Link to="/privacy" className="hover:text-accent transition-colors">นโยบายความเป็นส่วนตัว</Link>
+            <Link to="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
             <span>|</span>
             <span className="text-slate-400">Sitemap</span>
           </div>

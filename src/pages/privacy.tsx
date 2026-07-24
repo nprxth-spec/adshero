@@ -18,7 +18,7 @@ export default function PrivacyPage() {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         '@id': `${site}/privacy#webpage`,
-        name: 'นโยบายความเป็นส่วนตัว — AdsHero',
+        name: 'Privacy Policy — AdsHero',
         url: `${site}/privacy`,
         isPartOf: { '@id': `${site}/#website` },
     };
@@ -26,11 +26,11 @@ export default function PrivacyPage() {
     return (
         <>
             <Helmet>
-                <title>นโยบายความเป็นส่วนตัว — AdsHero</title>
-                <meta name="description" content="นโยบายความเป็นส่วนตัวของ AdsHero อธิบายวิธีที่เราเก็บรวบรวม ใช้ และปกป้องข้อมูลส่วนบุคคลของคุณ" />
+                <title>Privacy Policy — AdsHero</title>
+                <meta name="description" content="AdsHero's privacy policy describes how we collect, use, and protect your personal data." />
                 <link rel="canonical" href={`${site}/privacy`} />
                 <meta name="robots" content="noindex, follow" />
-                <meta property="og:title" content="นโยบายความเป็นส่วนตัว — AdsHero" />
+                <meta property="og:title" content="Privacy Policy — AdsHero" />
                 <meta property="og:url" content={`${site}/privacy`} />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
@@ -54,7 +54,7 @@ export default function PrivacyPage() {
                                 {privacy.title}
                             </motion.h1>
                             <motion.p variants={fadeUp} className="text-xs sm:text-sm text-slate-400 font-semibold uppercase">
-                                อัปเดตล่าสุด: <span>{privacy.lastUpdated}</span>
+                                Last Updated: <span>{privacy.lastUpdated}</span>
                             </motion.p>
                         </motion.div>
                     </div>

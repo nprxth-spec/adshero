@@ -25,10 +25,10 @@ export default function Navbar() {
   }, [location.pathname]);
 
   const navLinks = [
-    { label: 'บริการ', path: '/services' },
-    { label: 'ผลงาน', path: '/works' },
-    { label: 'เกี่ยวกับเรา', path: '/about' },
-    { label: 'ติดต่อ', path: '/contact' }
+    { label: 'Services', path: '/services' },
+    { label: 'Works', path: '/works' },
+    { label: 'About Us', path: '/about' },
+    { label: 'Contact', path: '/contact' }
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -98,7 +98,7 @@ export default function Navbar() {
             to="/contact"
             className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-5 py-2.5 text-xs font-bold text-white hover:bg-accent transition-all duration-200 shadow-md shadow-primary/10 hover:shadow-accent/20 hover:-translate-y-0.5"
           >
-            เริ่มต้นวันนี้
+            Get Started
             <ArrowUpRight size={14} />
           </Link>
         </div>
@@ -134,7 +134,7 @@ export default function Navbar() {
               to="/contact"
               className="w-full inline-flex items-center justify-center gap-1.5 rounded-lg bg-accent px-5 py-3 text-sm font-bold text-white hover:bg-accent-hover transition-colors shadow-md shadow-accent/20"
             >
-              เริ่มต้นวันนี้
+              Get Started
               <ArrowUpRight size={16} />
             </Link>
           </div>

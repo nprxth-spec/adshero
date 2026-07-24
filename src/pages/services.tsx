@@ -32,7 +32,7 @@ export default function ServicesPage() {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         '@id': `${site}/services#webpage`,
-        name: 'บริการการตลาดออนไลน์ครบวงจร — AdsHero',
+        name: 'Our Digital Marketing Services — AdsHero',
         url: `${site}/services`,
         isPartOf: { '@id': `${site}/#website` },
         about: { '@id': `${site}/#organization` },
@@ -41,11 +41,11 @@ export default function ServicesPage() {
     return (
         <>
             <Helmet>
-                <title>บริการการตลาดออนไลน์ครบวงจร — AdsHero</title>
-                <meta name="description" content="AdsHero ให้บริการ Facebook & Google Ads, SEO, Social Media, Content Marketing, ออกแบบและพัฒนาเว็บไซต์ ครบทุกบริการสำหรับธุรกิจ SME" />
+                <title>Our Services — AdsHero Digital Marketing Agency</title>
+                <meta name="description" content="AdsHero offers performance marketing, Facebook & Google Ads, SEO, Social Media, Content Marketing, and premium Web Design & Development." />
                 <link rel="canonical" href={`${site}/services`} />
-                <meta property="og:title" content="บริการการตลาดออนไลน์ครบวงจร — AdsHero" />
-                <meta property="og:description" content="ครบทุกบริการการตลาดดิจิทัล ตั้งแต่โฆษณาออนไลน์ไปจนถึงพัฒนาเว็บไซต์" />
+                <meta property="og:title" content="Our Digital Marketing Services — AdsHero" />
+                <meta property="og:description" content="End-to-end digital growth services from advertising campaigns to web development." />
                 <meta property="og:url" content={`${site}/services`} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />

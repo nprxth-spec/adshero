@@ -27,7 +27,7 @@ export default function AboutPage() {
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
         '@id': `${site}/about#webpage`,
-        name: 'เกี่ยวกับ AdsHero — เอเจนซี่การตลาดดิจิทัล',
+        name: 'About AdsHero — Digital Marketing Agency',
         url: `${site}/about`,
         isPartOf: { '@id': `${site}/#website` },
         about: { '@id': `${site}/#organization` },
@@ -36,11 +36,11 @@ export default function AboutPage() {
     return (
         <>
             <Helmet>
-                <title>เกี่ยวกับ AdsHero — เอเจนซี่การตลาดดิจิทัลครบวงจร</title>
-                <meta name="description" content="AdsHero เอเจนซี่การตลาดดิจิทัลที่เชื่อในผลลัพธ์จริง ช่วยธุรกิจ SME ไทยเติบโตออนไลน์มากว่า 10 ปี ด้วยทีมผู้เชี่ยวชาญที่มีประสบการณ์จริง" />
+                <title>About Us — AdsHero Digital Marketing Agency</title>
+                <meta name="description" content="Learn more about AdsHero, a digital marketing agency built on driving real results. We help SMEs grow with experienced professionals and ROI focus." />
                 <link rel="canonical" href={`${site}/about`} />
-                <meta property="og:title" content="เกี่ยวกับ AdsHero" />
-                <meta property="og:description" content="เอเจนซี่การตลาดดิจิทัลที่เชื่อในผลลัพธ์จริง ไม่ใช่แค่คำสัญญา" />
+                <meta property="og:title" content="About AdsHero" />
+                <meta property="og:description" content="Digital marketing agency built on driving real results." />
                 <meta property="og:url" content={`${site}/about`} />
                 <meta property="og:type" content="website" />
                 <meta name="twitter:card" content="summary_large_image" />
