@@ -1,7 +1,7 @@
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { motion } from 'motion/react';
 import { useState } from 'react';
-import { Phone, Mail, MessageCircle, Clock, MapPin, Send, CheckCircle2 } from 'lucide-react';
+import { Phone, Mail, MessageCircle, Clock, MapPin, Send, CheckCircle2, Building2, FileText } from 'lucide-react';
 import { contact } from '../content/data';
 
 const site = 'https://adshero.online';
@@ -198,11 +198,13 @@ export default function ContactPage() {
 
                                 {/* Info cards */}
                                 {[
+                                    { icon: <Building2 size={20} className="text-accent stroke-[1.8]" />, label: 'ชื่อจดทะเบียนธุรกิจ', value: contact.info.companyName },
+                                    { icon: <FileText size={20} className="text-accent stroke-[1.8]" />, label: 'เลขทะเบียนนิติบุคคล / เลขผู้เสียภาษี', value: contact.info.registrationNumber },
                                     { icon: <Phone size={20} className="text-accent stroke-[1.8]" />, label: 'โทรศัพท์', value: contact.info.phone, link: `tel:${contact.info.phone.replace(/[^0-9+]/g, '')}` },
                                     { icon: <Mail size={20} className="text-accent stroke-[1.8]" />, label: 'อีเมล', value: contact.info.email, link: `mailto:${contact.info.email}` },
                                     { icon: <MessageCircle size={20} className="text-accent stroke-[1.8]" />, label: 'LINE OA', value: contact.info.line, link: 'https://line.me/R/ti/p/%40adshero' },
                                     { icon: <Clock size={20} className="text-accent stroke-[1.8]" />, label: 'เวลาทำการ', value: contact.info.hours },
-                                    { icon: <MapPin size={20} className="text-accent stroke-[1.8]" />, label: 'ที่ตั้งสำนักงาน', value: contact.info.address },
+                                    { icon: <MapPin size={20} className="text-accent stroke-[1.8]" />, label: 'ที่ตั้งสำนักงาน (Head Office)', value: `${contact.info.address}\n\nEnglish Address:\n${contact.info.addressEn}` },
                                 ].map((item) => (
                                     <motion.div
                                         key={item.label}
@@ -219,7 +221,7 @@ export default function ContactPage() {
                                                     {item.value}
                                                 </a>
                                             ) : (
-                                                <div className="text-sm font-bold text-primary leading-relaxed">{item.value}</div>
+                                                <div className="text-sm font-bold text-primary leading-relaxed whitespace-pre-wrap">{item.value}</div>
                                             )}
                                         </div>
                                     </motion.div>

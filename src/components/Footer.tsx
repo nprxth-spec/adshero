@@ -39,9 +39,13 @@ export default function Footer() {
                 Ads<span className="text-accent">Hero</span>
               </span>
             </Link>
-            <p className="text-sm text-slate-500 leading-relaxed max-w-xs">
-              เอเจนซี่การตลาดออนไลน์ครบวงจร มุ่งมั่นเพิ่มยอดขายและขยายการเติบโตให้ธุรกิจคุณด้วยผลลัพธ์ที่วัดได้จริง
-            </p>
+            <div className="text-xs text-slate-500 leading-relaxed max-w-xs space-y-1">
+              <p className="font-bold text-slate-700">{contact.info.companyName}</p>
+              <p>เลขทะเบียนนิติบุคคล: {contact.info.registrationNumber}</p>
+              <p className="text-sm pt-1">
+                เอเจนซี่การตลาดออนไลน์ครบวงจร มุ่งมั่นเพิ่มยอดขายและขยายการเติบโตให้ธุรกิจคุณด้วยผลลัพธ์ที่วัดได้จริง
+              </p>
+            </div>
             <div className="flex items-center gap-3">
               <a
                 href={`https://line.me/R/ti/p/%40adshero`}

@@ -197,11 +197,14 @@ export const contact = {
     description: "เราพร้อมตอบคำถาม ให้คำแนะนำ และทำงานร่วมกับคุณเพื่อสร้างผลลัพธ์ที่ดีที่สุดในการทำการตลาดออนไลน์"
   },
   info: {
+    companyName: "Adshero Digital Group LLC",
+    registrationNumber: "0105565089123",
     phone: "+66 (0) 96-872-1224",
     email: "info@adshero.online",
     line: "@adshero",
     hours: "จันทร์ - ศุกร์: 09:00 น. - 18:00 น.",
-    address: "590 ถนนท่าข้าม แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150"
+    address: "590 ถนนท่าข้าม แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
+    addressEn: "590 Tha Kham Road, Samae Dam Subdistrict, Bang Khun Thian District, Bangkok 10150"
   },
   form: {
     title: "ส่งข้อความถึงเรา",
