@@ -199,12 +199,12 @@ export const contact = {
   info: {
     companyName: "Adshero Digital Group LLC",
     registrationNumber: "0105565089123",
-    phone: "+66 (0) 96-872-1224",
+    phone: "+66 (0) 85-529-3371",
     email: "info@adshero.online",
     line: "@adshero",
     hours: "Monday - Friday: 09:00 AM - 06:00 PM",
-    address: "590 ถนนท่าข้าม แขวงแสมดำ เขตบางขุนเทียน กรุงเทพมหานคร 10150",
-    addressEn: "590 Tha Kham Road, Samae Dam Subdistrict, Bang Khun Thian District, Bangkok 10150"
+    address: "98 อาคารสาทรสแควร์ ออฟฟิศ ทาวเวอร์ ชั้น 28 ถนนสาทรเหนือ แขวงสีลม เขตบางรัก กรุงเทพมหานคร 10500",
+    addressEn: "98 Sathorn Square Office Tower, 28th Floor, North Sathorn Road, Subdistrict Silom, District Bang Rak, Bangkok 10500"
   },
   form: {
     title: "Send Us a Message",
