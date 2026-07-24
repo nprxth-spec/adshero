@@ -41,6 +41,7 @@ function Layout() {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/works" element={<WorksPage />} />
           <Route path="/jijaow4ja9c5s7c0z0ltufo8yigwte" element={<MetaVerificationPage />} />
+          <Route path="/jijaow4ja9c5s7c0z0ltufo8yigwte.html" element={<MetaVerificationPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
